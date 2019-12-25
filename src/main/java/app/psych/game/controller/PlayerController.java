@@ -13,7 +13,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/dev")
+@RequestMapping("/api")
 public class PlayerController {
     @Autowired
     private PlayerRepository playerRepository;
